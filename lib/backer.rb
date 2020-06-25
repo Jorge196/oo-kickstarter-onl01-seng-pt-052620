@@ -6,9 +6,8 @@ class Backer
     @backed_projects = []
   end
 
-  def back_project(project)
-    Backer.back_project do include(Project)
-    end
+  def back_project(title)
+    
   end
 
 end
