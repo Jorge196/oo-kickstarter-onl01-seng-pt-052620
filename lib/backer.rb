@@ -7,7 +7,8 @@ class Backer
   end
 
   def back_project(project)
-    
+    Backer.back_project do include(title)
+    end 
   end
 
 end
